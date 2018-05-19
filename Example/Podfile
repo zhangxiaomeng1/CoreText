@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CoreText_Example' do
+  pod 'CoreText', :path => '../'
+
+  target 'CoreText_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
